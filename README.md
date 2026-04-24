@@ -259,8 +259,39 @@ Contenido de la sección.
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
+| ID   | Epic | Nombre                      | Historia de Usuario                                                                 | Criterios de Aceptación                                                                 |
+|------|------|-----------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| US01 | EPIC 1: Gestión de usuarios | Registro de usuario        | Como usuario, quiero registrarme en la plataforma para poder acceder al sistema.    | GIVEN está en registro, WHEN ingresa datos válidos, THEN se crea la cuenta.             |
+| US02 | EPIC 1: Gestión de usuarios | Inicio de sesión           | Como usuario, quiero iniciar sesión para acceder a mi panel de monitoreo.           | GIVEN tiene cuenta, WHEN ingresa credenciales correctas, THEN accede al sistema.        |
+| US03 | EPIC 1: Gestión de usuarios | Cierre de sesión           | Como usuario, quiero cerrar sesión para proteger mi cuenta.                         | GIVEN está logueado, WHEN cierra sesión, THEN se finaliza la sesión.                    |
+| US04 | EPIC 1: Gestión de usuarios | Recuperar contraseña       | Como usuario, quiero recuperar mi contraseña para acceder si la olvido.             | GIVEN olvidó contraseña, WHEN solicita recuperación, THEN recibe enlace.                |
+| US05 | EPIC 1: Gestión de usuarios | Editar perfil              | Como usuario, quiero editar mi perfil para mantener mis datos actualizados.         | GIVEN accede a perfil, WHEN modifica datos, THEN se guardan correctamente.              |
+| US06 | EPIC 1: Gestión de usuarios | Validación de cuenta       | Como usuario, quiero validar mi cuenta para mayor seguridad.                        | GIVEN se registra, WHEN valida correo, THEN cuenta queda activa.                        |
+| US07 | EPIC 2: Monitoreo del hogar | Dashboard general          | Como usuario, quiero visualizar mi hogar en tiempo real para tener control remoto.  | GIVEN está autenticado, WHEN entra al dashboard, THEN ve estado del hogar.              |
+| US08 | EPIC 2: Monitoreo del hogar | Estado de sensores         | Como usuario, quiero ver el estado de sensores para prevenir incidentes.            | GIVEN hay sensores, WHEN envían datos, THEN se muestran en tiempo real.                 |
+| US09 | EPIC 2: Monitoreo del hogar | Historial de eventos       | Como usuario, quiero ver historial para analizar incidentes.                        | GIVEN existen registros, WHEN accede, THEN visualiza eventos pasados.                   |
+| US10 | EPIC 2: Monitoreo del hogar | Múltiples dispositivos     | Como usuario, quiero monitorear varios sensores para mayor control.                 | GIVEN múltiples sensores, WHEN entra, THEN ve todos los dispositivos.                   |
+| US11 | EPIC 2: Monitoreo del hogar | Estado de conexión         | Como usuario, quiero ver si los sensores están conectados.                          | GIVEN sensores activos, WHEN consulta, THEN ve online/offline.                          |
+| US12 | EPIC 2: Monitoreo del hogar | Panel por habitaciones     | Como usuario, quiero ver sensores por habitación para organizar mejor.              | GIVEN sensores asignados, WHEN accede, THEN ve por zonas.                               |
+| US13 | EPIC 3: Alertas             | Alertas en tiempo real     | Como usuario, quiero recibir alertas inmediatas para reaccionar rápidamente.        | GIVEN ocurre evento, WHEN sensor detecta, THEN se envía alerta.                         |
+| US14 | EPIC 3: Alertas             | Notificaciones push        | Como usuario, quiero recibir notificaciones en mi celular.                          | GIVEN evento, WHEN ocurre, THEN recibe notificación.                                    |
+| US15 | EPIC 3: Alertas             | Configuración de alertas   | Como usuario, quiero personalizar mis alertas.                                      | GIVEN accede config, WHEN guarda cambios, THEN se aplican preferencias.                 |
+| US16 | EPIC 3: Alertas             | Alertas críticas           | Como usuario, quiero priorización de alertas críticas.                              | GIVEN múltiples eventos, WHEN uno es crítico, THEN se prioriza.                         |
+| US17 | EPIC 3: Alertas             | Alertas múltiples usuarios | Como usuario, quiero que otros reciban alertas también.                             | GIVEN hay usuarios vinculados, WHEN ocurre evento, THEN todos reciben alerta.           |
+| US18 | EPIC 3: Alertas             | Confirmación de alerta     | Como usuario, quiero confirmar alertas para evitar falsas alarmas.                  | GIVEN recibe alerta, WHEN confirma, THEN se registra acción.                            |
+| US19 | EPIC 4: Sensores IoT        | Conectar sensores          | Como usuario, quiero conectar sensores IoT para monitorear mi hogar.                | GIVEN sensor, WHEN lo registra, THEN queda vinculado.                                   |
+| US20 | EPIC 4: Sensores IoT        | Configurar sensores        | Como usuario, quiero configurar sensores según mis necesidades.                     | GIVEN sensor, WHEN cambia config, THEN se actualiza.                                    |
+| US21 | EPIC 4: Sensores IoT        | Detección de anomalías     | Como usuario, quiero detectar fugas o movimientos sospechosos.                      | GIVEN anomalía, WHEN sensor detecta, THEN se registra evento.                           |
+| US22 | EPIC 4: Sensores IoT        | Estado del sensor          | Como usuario, quiero ver estado técnico del sensor.                                 | GIVEN sensor activo, WHEN consulta, THEN ve batería/conexión.                           |
+| US23 | EPIC 4: Sensores IoT        | Eliminación de sensores    | Como usuario, quiero eliminar sensores que ya no uso.                               | GIVEN sensor registrado, WHEN elimina, THEN desaparece del sistema.                     |
+| US24 | EPIC 4: Sensores IoT        | Sensores plug-and-play     | Como usuario, quiero instalación fácil sin técnicos.                                | GIVEN compra sensor, WHEN instala, THEN funciona automáticamente.                       |
+| US25 | EPIC 5: Plataforma & negocio| Web responsive             | Como usuario, quiero acceder desde cualquier dispositivo.                           | GIVEN accede web, WHEN abre, THEN se adapta correctamente.                              |
+| US26 | EPIC 5: Plataforma & negocio| Dashboard intuitivo        | Como usuario, quiero interfaz fácil de usar.                                        | GIVEN usa sistema, WHEN navega, THEN entiende fácilmente.                               |
+| US27 | EPIC 5: Plataforma & negocio| Seguridad de datos         | Como usuario, quiero proteger mis datos personales.                                 | GIVEN datos guardados, WHEN sistema opera, THEN están protegidos.                       |
+| US28 | EPIC 5: Plataforma & negocio| Plan freemium              | Como usuario, quiero usar versión gratuita.                                         | GIVEN usuario nuevo, WHEN usa sistema, THEN accede a funciones básicas.                 |
+| US29 | EPIC 5: Plataforma & negocio| Suscripción premium        | Como usuario, quiero acceder a funciones avanzadas mediante pago.                   | GIVEN paga plan, WHEN activa, THEN accede a premium.                                    |
+| US30 | EPIC 5: Plataforma & negocio| Cancelar suscripción       | Como usuario, quiero cancelar mi suscripción.                                       | GIVEN tiene plan, WHEN cancela, THEN deja de cobrarse.                                  |
 
-Contenido de la sección.
 
 ## 3.2. Impact Mapping
 
