@@ -148,51 +148,198 @@ Cada integrante trabajó en la rama correspondiente a su capítulo o sección as
 
 ---
 
-# Capítulo I: Introducción
+# SafeHome Smart Security System
+
+## Capítulo I: Introducción
 
 ## 1.1. Startup Profile
 
-Contenido del capítulo I.
+Últimamente en el Perú se está viviendo una crisis de inseguridad ciudadana alarmante. Algunos ejemplos de esta problemática son las extorsiones, el sicariato, el aumento de violencia en las calles, el robo de celulares y el robo dentro de viviendas o intentos de robo en hogares. Este último problema es el que la aplicación **SafeHome** busca reducir significativamente.
 
-### 1.1.1. Descripción de la Startup
+SafeHome ofrece no solo seguridad o videovigilancia externa del hogar, sino también monitoreo en el interior de las viviendas para evitar fugas o el mal uso de servicios como luz, agua o gas. Para ello, la solución integra tecnología IoT mediante sensores especializados capaces de detectar anomalías en tiempo real y alertar oportunamente a los usuarios a través de una plataforma digital. De esta manera, se brinda una solución innovadora frente a una problemática que afecta a un gran sector de la población.
 
-Contenido de la sección.
+---
 
-### 1.1.2. Perfiles de integrantes del equipo
+## 1.1.1. Descripción de la Startup
 
-Contenido de la sección.
+**SafeHome** es una startup tecnológica enfocada en el desarrollo de soluciones inteligentes para la seguridad doméstica. Nuestro objetivo es reducir la vulnerabilidad de los hogares frente a robos e incidentes internos a través de un sistema integral de monitoreo en tiempo real que combina sensores inteligentes y automatización, accesible mediante una plataforma web desde cualquier dispositivo.
+
+SafeHome está dirigida principalmente a jóvenes adultos, familias y residentes de departamentos urbanos que requieren alternativas de seguridad accesibles, modernas y fáciles de implementar. La propuesta de valor de la startup se basa en ofrecer una solución escalable, económica y adaptable que no solo supervise el acceso al hogar, sino que también detecte situaciones anómalas dentro de la vivienda, contribuyendo a mejorar la seguridad, tranquilidad y calidad de vida de los habitantes.
+
+---
+
+## 1.1.2. Perfiles de integrantes del equipo
+
+| Integrante | Perfil |
+|---|---|
+| <img src="assets/Briguite-photo.png" alt="Briguite Carhuaz" width="160"/> | **Briguite Eryka Carhuaz Centeno** <br> **Código:** U20241D932 <br><br> Soy estudiante de Ingeniería de Software con capacidad para desempeñarme tanto en Frontend como en Backend. Cuento con un sólido dominio de lenguajes como Java y C++, además de experiencia en el diseño de prototipos con Figma. Durante el ciclo pasado, desarrollé proyectos basados en IoT, lo que me ha permitido fortalecer mi lógica de programación y visión técnica. Me caracterizo por ser una persona receptiva a las opiniones de los demás y siempre estoy dispuesta a apoyar a mis compañeros para asegurar que el proyecto avance con éxito. |
+| <img src="assets/Gonzalo-photo.png" alt="Gonzalo Jaime" width="160"/> | **Jaime Forcelledo, Gonzalo Alexander** <br> **Código:** U202319329 <br><br> Actualmente estoy estudiando Ingeniería de Software en la UPC. Me considero una persona curiosa y apasionada por el aprendizaje continuo. La música me encanta, descubrir nuevos géneros y artistas para enriquecer mis experiencias auditivas. |
+| <img src="assets/Mauricio-photo.png" alt="Mauricio Padilla" width="160"/> | **Mauricio Jared Padilla Merino** <br> **Código:** U201911393 <br> **Carrera:** Ingeniería de Software <br><br> Me encuentro cursando el quinto ciclo de mi carrera. Me considero una persona con buena capacidad de planeación y estructuración de proyectos de esta escala, siempre manteniendo una buena comunicación con mis compañeros para escuchar críticas o feedback constructivo sobre el proyecto. De esta manera, me aseguro de que todos podamos contribuir con nuestro fuerte y dar el mejor esfuerzo para el proyecto. |
+| <img src="assets/Valeria-photo.png" alt="Valeria Rojas" width="160"/> | **Valeria Alexandra Rojas Gómez** <br> **Código:** U202411373 <br> **Carrera:** Ingeniería de Software <br><br> Me considero una persona respetuosa y motivada, capaz de trabajar en equipo y cumplir con los plazos establecidos de las entregas. Me apasiona la gastronomía, el turismo, la naturaleza y los videojuegos. |
+| <img src="assets/Luis-photo.png" alt="Luis Pillaca" width="160"/> | **Pillaca Vidal Luis Angel** <br> **Código:** U202315654 <br> **Carrera:** Ingeniería de Software <br><br> Me considero una persona disciplinada y orientada a objetivos, con capacidad para trabajar en equipo y cumplir con los plazos establecidos. Tengo interés en el desarrollo tecnológico, especialmente en la creación de aplicaciones web y el uso de bases de datos como MongoDB y SQL. Me apasiona construir soluciones funcionales y bien diseñadas, y actualmente estoy enfocado en proyectos como el desarrollo de interfaces modernas y plataformas digitales orientadas a la seguridad y monitoreo. |
+
+---
 
 ## 1.2. Solution Profile
 
-Contenido de la sección.
+### Nombre del producto
 
-### 1.2.1. Antecedentes y problemática
+**SafeHome Smart Security System** es una solución tecnológica integral basada en Internet de las Cosas (IoT) que permite monitorear y proteger el hogar en tiempo real. El sistema combina sensores inteligentes, videovigilancia y una plataforma web accesible desde cualquier dispositivo, con el fin de detectar intrusiones, fugas de gas, consumo inusual de agua o energía, y otras anomalías dentro y fuera del hogar.
 
-Contenido de la sección.
+### Propuesta de valor
 
-### 1.2.2. Lean UX Process
+Brindar seguridad doméstica inteligente, accesible y en tiempo real, integrando monitoreo externo e interno del hogar en una sola plataforma fácil de usar.
 
-Contenido de la sección.
+### Misión
 
-#### 1.2.2.1. Lean UX Problem Statements
+Brindar soluciones inteligentes de seguridad doméstica mediante tecnología IoT, que permitan a las personas proteger sus hogares de manera eficiente, accesible y en tiempo real, mejorando su tranquilidad y calidad de vida.
 
-Contenido de la sección.
+### Visión
 
-#### 1.2.2.2. Lean UX Assumptions
+Ser la startup líder en seguridad inteligente para el hogar en el Perú y Latinoamérica, reconocida por innovar en tecnología, prevenir riesgos y transformar la forma en que las personas protegen sus viviendas.
 
-Contenido de la sección.
+### Valores
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+- Innovación
+- Compromiso
+- Seguridad
+- Accesibilidad
+- Responsabilidad
+- Confianza
 
-Contenido de la sección.
+---
 
-#### 1.2.2.4. Lean UX Canvas
+## 1.2.1. Antecedentes y problemática
 
-Contenido de la sección.
+En los últimos años, la inseguridad ciudadana se ha convertido en una de las principales preocupaciones sociales en el Perú, especialmente en zonas urbanas como Lima Metropolitana. El incremento sostenido de delitos contra el patrimonio, incluyendo robos domiciliarios, ha generado una creciente sensación de vulnerabilidad en los hogares.
 
-## 1.3. Segmentos objetivo
+Según el Instituto Nacional de Estadística e Informática (INEI), una proporción significativa de la población urbana percibe que la delincuencia ha aumentado, afectando directamente la calidad de vida y la tranquilidad de las familias. Paralelamente, el crecimiento de viviendas verticales y departamentos ha planteado nuevos desafíos en materia de seguridad, ya que muchos sistemas tradicionales se enfocan únicamente en el control de accesos externos, dejando sin monitoreo adecuado los espacios internos del hogar (INEI, 2024).
 
-Contenido de la sección.
+Adicionalmente, el avance de tecnologías basadas en Internet de las Cosas (IoT) ha permitido el desarrollo de soluciones inteligentes capaces de integrar sensores, monitoreo remoto y análisis en tiempo real para la prevención de incidentes domésticos y situaciones de riesgo. Sin embargo, muchas de estas soluciones continúan siendo costosas o poco accesibles para un amplio sector de la población, limitando su adopción en hogares de ingresos medios y jóvenes independientes.
+
+Investigaciones recientes destacan que la implementación de sistemas inteligentes de seguridad doméstica puede reducir riesgos asociados tanto a intrusiones como a fallas en servicios básicos como gas, agua o electricidad, evidenciando la necesidad de desarrollar plataformas tecnológicas accesibles, integradas y orientadas al usuario final (Almeida, Rodrigues & Silva, 2022). En este contexto, surge la oportunidad de diseñar una solución que combine monitoreo interno inteligente, accesibilidad económica y facilidad de uso para mejorar la seguridad integral del hogar.
+
+---
+
+## 1.2.2. Lean UX Process
+
+El proceso Lean UX aplicado al desarrollo de **SafeHome Smart Security System** se basa en un enfoque iterativo centrado en el usuario, que busca validar ideas rápidamente mediante la experimentación y el aprendizaje continuo.
+
+En primer lugar, se define el problema identificando las principales preocupaciones de los usuarios relacionadas con la inseguridad en el hogar y la falta de soluciones accesibles. A partir de ello, se plantean suposiciones e hipótesis sobre el comportamiento de los usuarios y el valor que podría ofrecer la solución.
+
+Luego, se procede a la fase de diseño, donde se crean prototipos simples de la plataforma, como wireframes o mockups, que permiten visualizar cómo funcionará el sistema. Estos prototipos no son definitivos, sino que sirven para recoger opiniones tempranas de los usuarios.
+
+Posteriormente, se realiza la validación mediante pruebas con usuarios reales, quienes interactúan con los prototipos y brindan retroalimentación sobre la usabilidad, funcionalidad y utilidad del sistema. Esta información es clave para identificar mejoras.
+
+Finalmente, se entra en un ciclo continuo de aprendizaje, donde, en base a los resultados obtenidos, se ajusta la solución, se mejoran las funcionalidades y se vuelve a probar. Este proceso iterativo permite desarrollar un producto más alineado con las necesidades reales del usuario, reduciendo riesgos y optimizando recursos.
+
+---
+
+## 1.2.2.1. Lean UX Problem Statements
+
+Actualmente, muchas viviendas en Lima enfrentan un aumento en la inseguridad, especialmente por robos dentro del hogar. Sin embargo, los sistemas de seguridad tradicionales se enfocan solo en puertas y ventanas, dejando de lado lo que ocurre dentro de la vivienda. Por otro lado, no existen muchas soluciones accesibles que integren sensores internos inteligentes para detectar movimientos o situaciones sospechosas en tiempo real, lo que genera una sensación de vulnerabilidad en los usuarios.
+
+Cabe resaltar que la inseguridad ha ido en aumento en los últimos años. En Lima Metropolitana, los delitos denunciados crecieron en un 39.8%, siendo el 78.8% relacionados con delitos contra el patrimonio (Davila, 2025). Asimismo, las viviendas verticales crecieron en un 116.6%, lo que plantea nuevos retos en seguridad (Calderon et al., 2021). Sin embargo, el 10.67% de viviendas urbanas han sido víctimas de robo o intento de robo, evidenciando una clara brecha en la protección del hogar (Calderon et al., 2021).
+
+Adicionalmente, mejorar la seguridad dentro del hogar es fundamental, ya que estos problemas afectan tanto económica como emocionalmente. Asimismo, los sistemas actuales no cubren completamente las necesidades del usuario moderno, especialmente en interiores. En este contexto, el proyecto se enfoca en la seguridad tecnológica del hogar, dirigido a personas en departamentos, familias y jóvenes independientes que enfrentan falta de monitoreo interno, altos costos y poca integración.
+
+Sin embargo, existe una oportunidad de desarrollar una solución accesible que combine sensores internos y monitoreo en tiempo real. En primer lugar, la visión es crear un sistema integral que proteja tanto el exterior como el interior del hogar, mediante una plataforma web o app escalable. El segmento inicial estará enfocado en jóvenes adultos que viven en departamentos en Lima.
+
+En conclusión, se plantea la siguiente pregunta:
+
+> ¿Cómo mejorar la seguridad dentro del hogar con sensores inteligentes accesibles?
+
+Como respuesta, el objetivo es desarrollar un sistema con monitoreo en tiempo real, que permita analizar limitaciones actuales, implementar sensores adecuados, diseñar una plataforma funcional y evaluar su desempeño mediante indicadores como tiempo de respuesta y satisfacción del usuario.
+
+---
+
+## 1.2.2.2. Lean UX Assumptions
+
+Para el desarrollo de **SafeHome Smart Security System**, partimos de algunas suposiciones clave basadas en el enfoque Lean UX, las cuales nos ayudarán a validar si nuestra solución realmente responde a las necesidades de los usuarios.
+
+En primer lugar, creemos que nuestros usuarios serán principalmente jóvenes adultos y familias que viven en zonas urbanas y que están preocupados por la seguridad de sus hogares. Además, asumimos que buscan soluciones accesibles, fáciles de usar y que puedan controlar desde su celular o computadora sin complicaciones.
+
+También consideramos que actualmente existe un problema real con la inseguridad, especialmente en robos a viviendas, y que muchas soluciones disponibles son costosas o difíciles de implementar. A esto se suma que dentro del hogar también hay riesgos como fugas de gas o fallas eléctricas que normalmente no se monitorean.
+
+Finalmente, asumimos que un sistema basado en sensores IoT será efectivo para detectar estas situaciones y que, si ofrecemos una plataforma simple y útil, los usuarios podrán sentirse más seguros y tranquilos en su día a día.
+
+---
+
+## 1.2.2.3. Lean UX Hypothesis Statements
+
+### 1.2.2.3.1. Hipótesis de negocio
+
+#### Hipótesis de negocio 1
+
+Creemos que ofrecer una aplicación de seguridad del hogar para personas que desean tener un control y monitoreo de su vivienda logrará adquirir usuarios rápidamente si incluimos que la aplicación sea gratuita.
+
+Sabremos que es exitoso cuando alcancemos por lo menos **500 descargas durante el primer mes**.
+
+#### Hipótesis de negocio 2
+
+Creemos que implementar y ofrecer suscripciones premium con monitoreo y detección de fugas de gas para propietarios que buscan reducir riesgos y optimizar costos permitirá generar ingresos sostenibles si implementamos funciones avanzadas como alertas en tiempo real y asistencia técnica especializada.
+
+Sabremos que habrá tenido éxito cuando un porcentaje significativo, alrededor del **10%**, adquiera esta suscripción premium.
+
+#### Hipótesis de negocio 3
+
+Creemos que implementar notificaciones en tiempo real para usuarios que desean monitorear su hogar constantemente permitirá aumentar la retención de usuarios si enviamos alertas ante eventos detectados.
+
+Sabremos que es exitoso cuando el **60% de usuarios use la app al menos una vez al día**.
+
+---
+
+### 1.2.2.3.2. Hipótesis de usuario
+
+#### Hipótesis de usuario 1
+
+Creemos que los usuarios victimizados y preocupados por su integridad ciudadana tienen escasas opciones de seguridad de la vivienda y herramientas accesibles para proteger su hogar.
+
+Al ofrecerles una aplicación intuitiva y gratuita, lograremos que adopten rápidamente la solución.
+
+Sabremos que es cierto si al menos el **60% completa la configuración inicial el primer día**.
+
+#### Hipótesis de usuario 2
+
+Creemos que los usuarios que desean mayor control y prevención tienen el problema de no contar con herramientas avanzadas de monitoreo.
+
+Al ofrecerles funciones como detección de fugas de gas y monitoreo inteligente, lograremos que exploren más funcionalidades dentro de la aplicación.
+
+Sabremos que es cierto si al menos el **30% accede a estas funciones avanzadas**.
+
+#### Hipótesis de usuario 3
+
+Creemos que las familias que buscan proteger su hogar tienen el problema de no contar con una solución integral de seguridad.
+
+Al ofrecerles una aplicación con monitoreo interno y externo, lograremos un uso frecuente de la aplicación.
+
+Sabremos que es cierto si al menos el **40% de los usuarios la utiliza de forma recurrente**.
+
+#### Hipótesis de usuario 4
+
+Creemos que los usuarios preocupados por la seguridad del hogar tienen el problema de no recibir alertas oportunas ante situaciones de riesgo.
+
+Al ofrecerles notificaciones en tiempo real, lograremos que utilicen la aplicación de forma frecuente.
+
+Sabremos que es cierto si al menos el **50% interactúa con las alertas recibidas**.
+
+---
+
+## 1.2.2.4. Lean UX Canvas
+
+<p align="center">
+  <img src="assets/LeanUXCanvas.png" alt="Lean UX Canvas de SafeHome" width="750"/>
+</p>
+
+---
+
+## 1.3. Segmentos objetivos
+
+| Segmento | Descripción | Necesidad | Edad | Ubicación |
+|---|---|---|---|---|
+| **Jóvenes adultos independientes** | Personas que viven solas o en pareja en departamentos urbanos y tienen afinidad con la tecnología. | Proteger su hogar de robos y monitorearlo de forma remota mediante una app sencilla y accesible. | 20 - 35 años | Zonas urbanas de Lima Metropolitana. |
+| **Familias urbanas** | Familias que viven en casas o departamentos y buscan mayor seguridad para sus integrantes y bienes. | Contar con un sistema de vigilancia constante con alertas en tiempo real ante robos o incidentes dentro del hogar. | 20 - 55 años | Zonas residenciales de Lima y principales ciudades del Perú. |
+| **Propietarios de inmuebles en alquiler** | Personas que alquilan viviendas y desean supervisar sus propiedades de manera remota. | Monitorear el estado del inmueble y evitar daños o mal uso de servicios como agua, luz o gas. | 30 - 60 años | Lima y ciudades con alta demanda de alquiler. |
 
 ---
 
